@@ -1,5 +1,5 @@
 Vagrant.configure("2") do |config|
-  config.vm.box = "bento/centos-7.3"
+  config.vm.box = "bento/centos-7.2"
 
   # config.vm.network "forwarded_port", guest: 80, host: 8080
 
@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-  config.vm.network "private_network", ip: "192.168.0.10"
+  config.vm.network "private_network", ip: "192.168.0.9"
   config.vm.hostname = "node.example.com"
 
   # Create a public network, which generally matched to bridged network.

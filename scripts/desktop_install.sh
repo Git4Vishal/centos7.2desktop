@@ -10,3 +10,4 @@ sudo yum install -y ntp
 sudo yum install -y curl
 sudo yum install -y wget
 sudo yum install -y firefox
+sudo reboot
